@@ -6,6 +6,28 @@ html
   div 
    h2 Hello Pug!! 
     ul 
-     li aaa 
-     li bbb 
-     li ccc 
+     li 
+        a(class='button' href='//google.com') Google 
+     li 
+        a(class='button' href='//google.com') Google
+     li a.button
+     li aaa
+    mixin pet(name)
+     li.pet= name 
+    ul 
+    +pet('cat')
+    +pet('dog')
+    +pet('pig')
+input(
+  type='button'
+  name='agreement'
+  checked
+)
+
+input(data-json=`
+  {
+    "very-long": "piece of ",
+    "data": true
+  }
+`)
+
