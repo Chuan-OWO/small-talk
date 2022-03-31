@@ -1,0 +1,24 @@
+{
+  "name": "small-talk",
+  "version": "1.0.0",
+  "description": "上課複習\r 前端技術的相關內容\r - HTML vs HTML5\r - JavaScript vs ECMA Script language\r - node-js\r - Html Template Engine\r - CSS Preprocessor\r - JavaScript Transpiler",
+  "main": "main_common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuan-OWO/small-talk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chuan-OWO/small-talk/issues"
+  },
+  "homepage": "https://github.com/Chuan-OWO/small-talk#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
