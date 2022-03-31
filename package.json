@@ -4,7 +4,9 @@
   "description": "上課複習\r 前端技術的相關內容\r - HTML vs HTML5\r - JavaScript vs ECMA Script language\r - node-js\r - Html Template Engine\r - CSS Preprocessor\r - JavaScript Transpiler",
   "main": "main_common.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx webpack --mode development",
+    "dev:watch":"webpack -w --mode development",
+    "build":"webpack --mode production"
   },
   "repository": {
     "type": "git",
