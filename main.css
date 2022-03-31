@@ -1,0 +1,8 @@
+div{
+    background-color:lightgreen;
+    padding:10px;
+    width:50%;
+}
+div>h2{
+    color: purple;
+}
