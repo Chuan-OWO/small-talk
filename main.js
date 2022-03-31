@@ -1,6 +1,9 @@
 //ES6 匯入
 import {person} from './personES6.mjs'
-import './main.css'; //要找到css loader
+// import './main.css'; //要找到css loader
+import './main.scss';
+
+
 console.log(`${person.fN} ${person.lN}`)
 const myDiv = document.querySelector('#div1');
 myDiv.innerHTML = `<h2>${person.fN} ${person.lN}</h2>`;
